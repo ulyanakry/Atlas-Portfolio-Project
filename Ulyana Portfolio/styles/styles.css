@@ -22,6 +22,33 @@ body {background-color: #FFFF; font-family: Gilroy, "Helvetica Neue", Helvetica,
     background-color: #af64db;
 }
 
+.mainpageabout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutsection {
+    max-width: 400px;
+}
+
+.aboutsectionp {
+    width: 400px;
+    flex-basis: 650px;
+}
+
+.aboutsection img {
+    object-fit: cover;
+    max-width: 400px;
+    border-radius: 500px;
+}
+
+@media (max-width: 1445px) {
+    #secondpic {display: none;}
+}
+
 .gallerytitle {
     font-size: 45px;
     text-align: center;
