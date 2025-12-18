@@ -318,6 +318,7 @@ select, textarea {
     color: #4b4b4b;
     font-family: Gilroy, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 15px;
+    font-weight: bold;
 }
 #rights, #links {
     width: 100%;
@@ -363,4 +364,8 @@ footer {
   margin-bottom: 10px;
   display: inline-block;
   break-inside: avoid; /* главная магия! чтобы картинки не ломались */
+}
+
+.footer-content i:hover {
+    color: #af64db;
 }
